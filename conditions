@@ -20,7 +20,7 @@ public class Basics{
     for(int count1 = 1; count1 != 5 ; count1++){
         System.out.println(count1);
     }
-    }
+    } 
 }
 
 /*
