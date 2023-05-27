@@ -19,7 +19,33 @@ public class Basics{
     //FOR LOOP : when you know how times you have to run use for loop
     for(int count1 = 1; count1 != 5 ; count1++){
         System.out.println(count1);
-    }
+    }/*
+        Syntax of if statement :
+        if(bollean expression T or F){
+            //body
+        } else{
+            // do this
+        }
+        */
+        int salary = 25000;
+        if( salary > 10000){
+            salary = salary + 2000;
+        }
+        else{
+            salary = salary + 1000;
+        }
+        System.out.println(salary);
+        //multiple - if-else
+        int age = 70;
+        if(age > 20 && age<50){
+            System.out.println("Teenage");
+        }
+        else if(age>50){
+            System.out.println("Men");
+        }
+        else{
+            System.out.println("Kid");
+        }
     } 
 }
 
@@ -36,4 +62,7 @@ FOR LOOP
 2
 3
 4
+27000
+Men
+
 */
