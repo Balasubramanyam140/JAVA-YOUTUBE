@@ -67,8 +67,25 @@ OUTPUT :
             15
 */
 ___________________________________________________________________________________________________________________________________________________________
+4. Function String() - returning a String value
+import java.util.Scanner;
+class Main{
+    
+    public static void main(String[] args){
+        String message = greet();
+        System.out.println(message);
+    }
+    static String greet() {
+        String greeting = " How are you ! ";
+        return greeting;
+    }
+}
 
-
+/*
+OUTPUT  :
+        How are you !
+*/
+___________________________________________________________________________________________________________________________________________________________
 
 
 
