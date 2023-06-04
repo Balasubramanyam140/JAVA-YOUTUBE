@@ -34,4 +34,27 @@ class Main{
 OUTPUT : 
             Hello Balu
 */
+
+2.1 Parameter ( String input value )                                          
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a name");
+        String name = sc.next();
+        String personalized = myGreet(name);
+        System.out.println(personalized);
+    }
+    
+    static String myGreet(String name) {
+        String message = "Hello " + name;
+        return message;
+    }
+}
+/*
+OUTPUT :
+            Enter a name
+            YOGITHA
+            Hello YOGITHA
+*/
 ___________________________________________________________________________________________________________________________________________________________
