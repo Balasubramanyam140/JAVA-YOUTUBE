@@ -1,7 +1,8 @@
+1. Parameter ( Int values )
 import java.util.Scanner;
 class Main{
     public static void main(String[] args){
-        int ans = sum(20 , 30);
+        int ans = sum(20 , 30);   //Here this means a : 20 , b : 30
         System.out.print(ans);
     }
     static int sum(int a, int b){
@@ -14,3 +15,23 @@ class Main{
 OUTPUT :
       50
 */
+___________________________________________________________________________________________________________________________________________________________
+2.Parameter - ( String value )
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        String personalized = myGreet("Balu");
+        System.out.println(personalized);
+    }
+    
+    static String myGreet(String name) {
+        String message = " Hello " + name;
+        return message;
+    }
+}
+
+/*
+OUTPUT : 
+            Hello Balu
+*/
+___________________________________________________________________________________________________________________________________________________________
