@@ -34,7 +34,7 @@ class Main{
 OUTPUT : 
             Hello Balu
 */
-
+                                ----------------------------------------------------------------------
 2.1 Parameter ( String input value )                                          
 import java.util.Scanner;
 class Main{
