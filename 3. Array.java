@@ -20,6 +20,8 @@
 
             System.out.println(Arrays.toString(arr));
 
+
+
 import java.lang.*;
 import java.io.*;
 import java.util.*;
@@ -61,7 +63,7 @@ OUTPUT :
     5
     1 2 3 4 5 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Direct printing the array using Arrays.toString(arr) Method :
+1. Direct printing the array using Arrays.toString(arr) Method :
 
 import java.lang.*;
 import java.io.*;
@@ -85,6 +87,8 @@ OUTPUT :
 1. Creating an Array
 2. Giving the values using Scanner
 3. Printing the Array 
+
+    
 import java.io.*;
 import java.util.*;
 import java.lang.*;
@@ -120,6 +124,8 @@ public class Main{
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. Printing the an individual item from an array
+
+    
 import java.lang.*;
 import java.io.*;
 import java.util.*;
@@ -136,6 +142,8 @@ OUTPUT :
         0  // in int if there is no value it gives 0 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. Printing an individual from the String
+
+    
 import java.lang.*;
 import java.io.*;
 import java.util.*;
