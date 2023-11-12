@@ -1,3 +1,41 @@
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+class Main{
+    public static void main(String[] args){
+        int[] arr = new  int[5];
+        arr[0] = 23;
+        arr[1] = 56;
+        arr[2] = 98;
+        arr[3] = 64;
+        arr[4] = 73;
+        //[23, 56, 98, 64, 73]
+        Scanner sc = new Scanner(System.in);
+        System.out.println(arr[3]);
+        for(int i=0; i < arr.length; i++){
+            arr[i] = sc.nextInt();
+        }
+    /*
+        for(int i=0; i < arr.length; i++){
+            
+            System.out.print(arr[i]+ " ");
+        }
+      */  
+        for(int num : arr){// for every element in array , print the element
+            System.out.print(num + " "); //here num represents elements of the array
+        }
+    }
+}
+
+OUTPUT : 
+    64
+    1
+    2
+    3
+    4
+    5
+    1 2 3 4 5 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 import java.io.*;
 import java.util.*;
 import java.lang.*;
