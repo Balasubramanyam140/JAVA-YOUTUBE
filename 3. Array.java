@@ -1,3 +1,25 @@
+1 . Creating the Array 
+2. giving values using
+    for(int i=0; i < arr.length; i++){
+            arr[i] = sc.nextInt();
+        }
+2. Printing using 
+            for(int i=0; i < arr.length; i++){
+                    
+                    System.out.print(arr[i]+ " ");
+                }
+
+                or
+
+            for(int num : arr){// for every element in array , print the element
+            System.out.print(num + " "); //here num represents elements of the array
+        }
+
+
+                or
+
+            System.out.println(Arrays.toString(arr));
+
 import java.lang.*;
 import java.io.*;
 import java.util.*;
@@ -21,6 +43,9 @@ class Main{
             System.out.print(arr[i]+ " ");
         }
       */  
+    /*
+            System.out.println(Arrays.toString(arr));
+    */
         for(int num : arr){// for every element in array , print the element
             System.out.print(num + " "); //here num represents elements of the array
         }
@@ -57,7 +82,9 @@ class Main{
 OUTPUT :
         [23, 56, 98, 64, 73]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    
+1. Creating an Array
+2. Giving the values using Scanner
+3. Printing the Array 
 import java.io.*;
 import java.util.*;
 import java.lang.*;
@@ -92,6 +119,7 @@ public class Main{
     }
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Printing the an individual item from an array
 import java.lang.*;
 import java.io.*;
 import java.util.*;
@@ -105,8 +133,9 @@ class Main{
 }
 
 OUTPUT :
-        0
+        0  // in int if there is no value it gives 0 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Printing an individual from the String
 import java.lang.*;
 import java.io.*;
 import java.util.*;
@@ -119,5 +148,5 @@ class Main{
 }
 
 OUTPUT :
-        null
+        null   //in String if there is no value it gives null
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
