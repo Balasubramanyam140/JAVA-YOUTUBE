@@ -36,6 +36,28 @@ OUTPUT :
     5
     1 2 3 4 5 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Direct printing the array using Arrays.toString(arr) Method :
+
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+class Main{
+    public static void main(String[] args){
+        int[] arr = new  int[5];
+        arr[0] = 23;
+        arr[1] = 56;
+        arr[2] = 98;
+        arr[3] = 64;
+        arr[4] = 73;
+        //[23, 56, 98, 64, 73]
+        System.out.println(Arrays.toString(arr));
+    }
+}
+
+OUTPUT :
+        [23, 56, 98, 64, 73]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
 import java.io.*;
 import java.util.*;
 import java.lang.*;
