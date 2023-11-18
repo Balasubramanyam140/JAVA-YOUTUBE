@@ -64,7 +64,31 @@ OUTPUT :
     1 2 3 4 5 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. Direct printing the array using Arrays.toString(arr) Method :
+import java.util.*;
+import java.io.*;
+import java.lang.*;
+class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        //Array of objects
+        String[] str = new String[4];
+        for(int i=0;i < str.length; i++){
+            str[i] = sc.next();
+        }
+        System.out.println(Arrays.toString(str));
+    }
+}
 
+OUTPUT :
+                
+                a
+                b
+                c
+                d
+                [a, b, c, d]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Direct printing the array using Arrays.toString(arr) Method :
 import java.lang.*;
 import java.io.*;
 import java.util.*;
