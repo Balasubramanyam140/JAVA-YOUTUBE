@@ -182,3 +182,26 @@ class Main{
 OUTPUT :
         null   //in String if there is no value it gives null
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Modify using function 
+    
+import java.util.*;
+import java.io.*;
+import java.lang.*;
+class Main{
+    public static void main(String[] args){
+        
+        int[] nums = {3,4,5,12};
+        System.out.println(Arrays.toString(nums));
+        change(nums);
+        System.out.println(Arrays.toString(nums));
+        
+    }
+    static void change(int[] arr){
+        arr[0] = 99;
+    }
+}
+
+OUTPUT :
+
+                [3, 4, 5, 12][99, 4, 5, 12]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
