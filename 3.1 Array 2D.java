@@ -1,3 +1,8 @@
+1. Cresting 2D Array[]
+2. Giving values for Array[] using Scanner()
+3. Printing the 2D Array[]    
+
+    
 import java.util.*;
 import java.io.*;
 import java.lang.*;
@@ -21,7 +26,7 @@ class Main{
         
         */
         Scanner sc = new Scanner(System.in);
-        int[][] arr = new int[3][3];
+        int[][] arr = new int[4][3];
         System.out.println(arr.length); //no of rows
         //input
         for(int row = 0 ; row < arr.length; row++){
@@ -29,13 +34,25 @@ class Main{
                 arr[row][col] = sc.nextInt();
             }
         }
+        /*
         //Output
         for(int row = 0 ; row < arr.length; row++){
             for(int col =0 ; col < arr[row].length ; col++ ){
                 System.out.print(arr[row][col] +" ");
             }
-            Systen.out.println();
+            System.out.println();
         }
+        */
+        /*
+        //OUTPUT 2nd Method
+        for(int row=0 ; row <= arr.length ; row++){
+            System.out.println(Arrays.toString(arr[row]));
+        }
+        */
         
+        //OUTPUT 3rd method
+        for(int[] a : arr){
+            System.out.println(Arrays.toString(a));
+        }
     }
 }
