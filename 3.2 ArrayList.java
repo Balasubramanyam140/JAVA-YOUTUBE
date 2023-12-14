@@ -131,6 +131,8 @@ class HelloWorld {
         System.out.println(list);
     }
 }
-OUTPUT :
+INPUT :
             1 2 3 4 5 6 7 8 9
+    
+OUTPUT :
             [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
