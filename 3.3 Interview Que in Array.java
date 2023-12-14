@@ -18,4 +18,56 @@ class HelloWorld {
 OUTPUT :
           [1, 9, 23, 3, 10]
 ------------------------------------------------------------------------------------------
-  
+//Max value of an Array
+
+import java.util.Scanner;
+import java.util.Arrays;
+class HelloWorld {
+    public static void main(String[] args) {
+        int[] arr = { 2, 45, 143, 82, 10};
+        
+        System.out.println(maxRange(arr, 1, 3));
+    }
+    
+    static int maxRange(int[] arr, int start, int end){
+        int maxVal = arr[0];
+        for(int i=1 ;i< arr.length; i++){
+            if(arr[i] > maxVal){
+                maxVal = arr[i];
+            }
+        }
+        return maxVal;
+    }
+    
+}
+
+OUTPUT :
+            143
+------------------------------------------------------------------------------------------
+//Max Value between a two indexs
+
+import java.util.Scanner;
+import java.util.Arrays;
+class HelloWorld {
+    public static void main(String[] args) {
+        int[] arr = { 1782, 45, 143, 82, 150};
+        
+        System.out.println(maxRange(arr, 1, 3));
+    }
+    
+    static int maxRange(int[] arr, int start, int end){
+        int maxVal = arr[start];
+        for(int i=start ;i< end; i++){
+            if(arr[i] > maxVal){
+                maxVal = arr[i];
+            }
+        }
+        return maxVal;
+    }
+    
+}
+
+OUTPUT : 
+            143
+------------------------------------------------------------------------------------------
+     
