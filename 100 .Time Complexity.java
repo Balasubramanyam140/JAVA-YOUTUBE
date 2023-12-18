@@ -1,6 +1,6 @@
 
 Linear Search
----------------
+--------------- 
     Time complexity : O(1) //constant
     worst case  : O(N) //N -> Size of Array
 
