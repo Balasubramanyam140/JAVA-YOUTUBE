@@ -1,4 +1,4 @@
-
+QUE : Floor of the target
 class BinarySearch{
     public static void main(String[] args){
         int [] arr = { 2, 3, 5, 18, 17, 23, 48, 59, 60};
