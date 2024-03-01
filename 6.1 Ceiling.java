@@ -10,6 +10,11 @@ class BinarySearch{
     //return the index
     //return -1 if it doesnt exist
     static int ceiling(int[] arr, int target){
+        // but what if the target is greather then the greatest number in an array
+        if(target > arr[arr.length-1]){
+            return -1;
+        }
+       
         int start = 0;
         int end = arr.length -1;
         while(start <= end){
