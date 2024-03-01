@@ -8,8 +8,12 @@ class BinarySearch{
         System.out.println(ans);
     }
     //return the index
-    //return -1 if it doesnt exist
+    // return the index : greatest number <= target
     static int floor(int[] arr, int target){
+       if(target < arr[arr.length-1]){
+            return -1;
+        }
+       
         int start = 0;
         int end = arr.length -1;
         while(start <= end){
