@@ -1,7 +1,7 @@
 QUE : Floor of the target
 class BinarySearch{
     public static void main(String[] args){
-        int [] arr = { 2, 3, 5, 18, 17, 23, 48, 59, 60};
+        int [] arr = { 2, 3, 5, 17, 18, 23, 48, 59, 60};
         int target = 15;
         int ans = floor(arr, target);
         
@@ -10,7 +10,7 @@ class BinarySearch{
     //return the index
     // return the index : greatest number <= target
     static int floor(int[] arr, int target){
-       if(target < arr[arr.length-1]){
+       if(target > arr[arr.length-1]){
             return -1;
         }
        
