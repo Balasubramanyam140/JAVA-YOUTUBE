@@ -27,7 +27,7 @@ class BubbleSort{
                 }
             }
             //if you did not swap for a partiular value of i, 
-            //it means the array is sorted hence stop the profram
+            //it means the array is sorted hence stop the program
             if(!swapped){ //!false = true
                 break;
             }
