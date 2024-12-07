@@ -1,4 +1,22 @@
 Que : Sorting in Bubble Sort 
+Bubble Sort Steps:
+Initial Array: [5, 3, 4, 1, 2]
+Pass 1:
+Compare and swap adjacent elements:
+[5, 3, 4, 1, 2] → [3, 5, 4, 1, 2] → [3, 4, 5, 1, 2] → [3, 4, 1, 5, 2] → [3, 4, 1, 2, 5]
+Pass 2:
+[3, 4, 1, 2, 5] → [3, 4, 1, 2, 5] → [3, 1, 4, 2, 5] → [3, 1, 2, 4, 5]
+Pass 3:
+[3, 1, 2, 4, 5] → [1, 3, 2, 4, 5] → [1, 2, 3, 4, 5]
+Pass 4:
+[1, 2, 3, 4, 5] (No swaps; array is sorted)
+Final sorted array: [1, 2, 3, 4, 5].
+
+
+
+
+
+
 
 
 import java.util.Arrays;
