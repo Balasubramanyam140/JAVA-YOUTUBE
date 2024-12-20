@@ -136,3 +136,52 @@ INPUT :
     
 OUTPUT :
             [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+-------------------------------------------------------------------------------------------
+//Que : Ascending Order and Discending Order
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        ArrayList<Integer> list = new ArrayList<>();
+       Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+       for(int i=0;i<n; i++){
+           list.add(sc.nextInt());
+       }
+       System.out.println("Our List : ");
+       System.out.println(list);
+        //to print particular value
+        System.out.println("List size : "+ list.size());
+        System.out.println("Ascending order");
+        Collections.sort(list);
+        System.out.println(list);
+        //adding a new value to particular position
+        
+        System.out.println("Descending order");
+        for (int i = list.size() - 1; i >= 0; i--) {
+            System.out.print(list.get(i) + " ");
+        }
+    }
+}
+
+INPUT :
+        6
+        3
+        4
+        3
+        43
+        4
+        3
+OUTPUT :
+        Our List : 
+        [3, 4, 3, 43, 4, 3]
+        List size : 6
+        Ascending order
+        [3, 3, 3, 4, 4, 43]
+        Descending order
+        43 4 4 3 3 3 
+----------------------------------------------------------------------------------------------------------------
+        
+        
