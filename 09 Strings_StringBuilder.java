@@ -87,6 +87,8 @@ OUTPUT :
                     }
                 }
             }
+//Here it creates 26 objects and time complexity is 0(N^2)
+//a ab abc abcd .......     abcd--z
 
                       (or)
                         
