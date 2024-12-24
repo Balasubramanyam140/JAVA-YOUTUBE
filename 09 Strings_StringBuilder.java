@@ -1,7 +1,7 @@
 1) String Comparison using (==) and (.equals) methods
 2) Formatting Specifiers
 3) String Comcatenations
-
+4) Printing a - z
 
 
 -----------------------------------------------------------------------------
@@ -74,8 +74,22 @@ OUTPUT :
               Balu[]
               Balu56
               56[]
-              
-              
 
+  -----------------------------------------------------------------------------
+4) Printing a - z
+            
+            class Main{
+                public static void main(String[] args){
+                    String series= "";
+                    for(int i=0;i<26;i++){
+                        char ch = (char)('a'+i);
+                        System.out.print(ch+" ");
+                    }
+                }
+            }
+
+OUTPUT :
+          a b c d e f g h i j k l m n o p q r s t u v w x y z 
+  -----------------------------------------------------------------------------
 
 
