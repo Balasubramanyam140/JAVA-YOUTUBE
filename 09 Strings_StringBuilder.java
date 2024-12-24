@@ -1,5 +1,6 @@
 1) String Comparison using (==) and (.equals) methods
 2) Formatting Specifiers
+3) String Comcatenations
 
 
 
@@ -49,8 +50,32 @@ OUTPUT :
           Formatted number is 453.24
           Hello My name is Balu and I am cool
   -----------------------------------------------------------------------------
+3) String Comcatenations
 
+          import java.util.ArrayList;
+          class Main{
+              public static void main(String[] args){
+                  System.out.println('a' + 'b');
+                  System.out.println("a"+"b"); 
+                  System.out.println('a' + 3 ); // ascii of a = 97
+                  System.out.println((char)('a' + 3)); 
+                  System.out.println("Balu" + new ArrayList<>());
+                  System.out.println("Balu" + new Integer(56));
+                  String ans =new Integer(56) + "" + new ArrayList<>();
+                  System.out.println(ans);
+              }
+          }
 
+  OUTPUT :
+              195
+              ab
+              100
+              d
+              Balu[]
+              Balu56
+              56[]
+              
+              
 
 
 
