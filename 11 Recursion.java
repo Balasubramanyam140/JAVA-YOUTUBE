@@ -1,6 +1,7 @@
 1) Ex : Write a function that prints hello world
 2) Write a function that takes in a number nd prints it
    Print first 5 numbers: 1 2 3 4 5
+3) Fibonacci series using recursion
 
 
 ----------------------------------------------------------------------------------------
@@ -79,6 +80,24 @@ OUTPUT:
         5
 
 ---------------------------------------------------------------------------------------
+3) Fibonacci series using recursion
+
+
+         class Main{
+          public static void main(String[] args){
+              System.out.println(fibo(7));
+          }
+          static int fibo(int n){
+              if(n<2){
+                  return n;
+              }
+             return fibo(n-1)+fibo(n-2);
+          }
+          
+         }
+
+OUTPUT :
+         13
 ---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
