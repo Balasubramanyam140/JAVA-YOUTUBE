@@ -2,7 +2,7 @@
 2) Write a function that takes in a number nd prints it
    Print first 5 numbers: 1 2 3 4 5
 3) Fibonacci series using recursion
-
+4) Binary Search using Recursion
 
 ----------------------------------------------------------------------------------------
 1) Ex : Write a function that prints hello world
@@ -99,6 +99,38 @@ OUTPUT:
 OUTPUT :
          13
 ---------------------------------------------------------------------------------------
+4) Binary Search using Recursion
+   
+            class Main{
+                public static void main(String[] args){
+                    int[] arr={2,4,5,7,9,10,24,34,46,57,58,79};
+                    int target = 24;
+                    int result= binarySerach( arr, 0, arr.length -1, target);
+                    if(result != -1){
+                        System.out.println("Found");
+                    }
+                    else{
+                        System.out.println("Not Found");
+                    }
+                }
+                static int binarySerach(int[] arr,int left,int right,int target){
+                    if(left <= right){
+                        int mid = left + (right -left)/2;
+                        
+                        if(arr[mid] == target){
+                            return mid;
+                        }
+                        if(arr[mid] > target){
+                            return binarySerach(arr,left,mid-1,target);
+                        }
+                        return binarySerach(arr,mid+1,right,target);
+                    }
+                    return -1;
+                }
+            }
+OUTPUT :
+         Found
+   
 ---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
