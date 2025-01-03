@@ -3,6 +3,7 @@
    Print first 5 numbers: 1 2 3 4 5
 3) Fibonacci series using recursion
 4) Binary Search using Recursion
+5) Binary Search using recursion and find index
 
 ----------------------------------------------------------------------------------------
 1) Ex : Write a function that prints hello world
@@ -132,5 +133,30 @@ OUTPUT :
          Found
    
 ---------------------------------------------------------------------------------------
+5) Binary Search using recursion and find index
+
+               class Main{
+                public static void main(String[] args){
+                    int[] arr={2,4,5,7,9,10,24,34,46,57,58,79};
+                    int target = 24;
+                    System.out.println(binarySerach( arr, 0, arr.length -1, target));
+                }
+                static int binarySerach(int[] arr,int s,int e,int target){
+                    if(s>e){
+                        return -1;
+                    }
+                        int mid = s + (e -s)/2;
+                           
+                        if(arr[mid] == target){
+                            return mid;
+                        }
+                        if(arr[mid] > target){
+                            return binarySerach(arr,s,mid-1,target);
+                        }
+                        return binarySerach(arr,mid+1,e,target);
+                    }
+            }
+OUTPUT :
+            6
 ---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
